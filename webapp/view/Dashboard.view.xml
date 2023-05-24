@@ -3,7 +3,17 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            	
+            <Label text="Name" labelFor="nameInput" />
+            <HBox>
+                <Input
+                    id="nameInput"
+                    placeholder="Enter your name:"
+                    maxLength="12"
+                    liveChange="setNewName"
+                    submit="setNewName"
+                />
+                <Button id="nameSubmit" type="Reject" text="Reject" press="onPress" enabled="false" icon="sap-icon://decline" />
+                </HBox>
         </content>
     </Page>
 </mvc:View>
