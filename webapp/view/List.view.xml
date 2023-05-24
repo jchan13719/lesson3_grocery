@@ -5,10 +5,13 @@
         <content>
              <Label id="nameLabel" />
              	<List
+                    id="groceryList"
                     headerText="Grocery Items"
                     items="{
                         path: '/items'
                     }" 
+                     updateStarted="startLoadNewChunk"
+                    updateFinished="endLoadNewChunk"
                     growing="true">
                     <StandardListItem
                         title="{name}"

@@ -17,7 +17,8 @@ sap.ui.define([
                 //Set a new JSON model for grocery Items
                 var groceryModel = new JSONModel("/model/groceryItems.json");
 			    this.getView().setModel(groceryModel);
-
+                //Set list busy until data is loaded
+                // this.getView().byId("groceryList").setBusy(true)
             },
             onRouteMatched:function(oEvent){
                 debugger
@@ -25,6 +26,12 @@ sap.ui.define([
                 let name=oEvent.getParameter("arguments").name
                 let newMessage=welcome+name+ "!"
                 this.getView().byId("nameLabel").setProperty("text",newMessage)
+            },
+            startLoadNewChunk:function(){
+                this.getView().byId("groceryList").setBusy(true)
+            },
+            endLoadNewChunk:function(){
+                this.getView().byId("groceryList").setBusy(false)
             }
         });
     });
