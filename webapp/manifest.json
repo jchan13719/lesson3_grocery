@@ -83,6 +83,13 @@
           "target": [
             "TargetDashboard"
           ]
+        },
+        {
+          "name": "RouteList",
+          "pattern": "/list/{name}",
+          "target": [
+            "TargetList"
+          ]
         }
       ],
       "targets": {
@@ -92,6 +99,13 @@
           "clearControlAggregation": false,
           "viewId": "Dashboard",
           "viewName": "Dashboard"
+        },
+        "TargetList": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "List",
+          "viewName": "List"
         }
       }
     },
