@@ -1,10 +1,11 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "sap/ui/core/mvc/Controller",
+    "sap/ui/core/UIComponent"
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller) {
+    function (Controller,UIComponent) {
         "use strict";
 
         return Controller.extend("grocery.controller.Dashboard", {
@@ -29,7 +30,15 @@ sap.ui.define([
                     buttonReference.setProperty("icon", "sap-icon://decline")
                     buttonReference.setProperty("enabled", false)
                 }
+            },
+            onButtonClick:function(){
+                let currName=this.getView().byId("nameInput").getValue();
+                var oRouter = UIComponent.getRouterFor(this);
+                oRouter.navTo("RouteList", {
+                    name: currName
+                });
             }
+
 
         });
     });

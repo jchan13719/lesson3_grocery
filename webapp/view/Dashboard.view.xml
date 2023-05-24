@@ -12,7 +12,7 @@
                     liveChange="setNewName"
                     submit="setNewName"
                 />
-                <Button id="nameSubmit" type="Reject" text="Reject" press="onPress" enabled="false" icon="sap-icon://decline" />
+                <Button id="nameSubmit" type="Reject" text="Reject" press="onButtonClick" enabled="false" icon="sap-icon://decline" />
                 </HBox>
         </content>
     </Page>
