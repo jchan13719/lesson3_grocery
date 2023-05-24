@@ -1,0 +1,214 @@
+{
+    "items":[
+        {
+            "name":"apple",
+            "color":"red",
+            "flavor":"sweet",
+            "quantity":60, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"orange",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":30, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"grapes",
+            "color":"purple",
+            "flavor":"sweet",
+            "quantity":50, 
+            "nutritionalValue":"Vitamin A"
+        },
+        {
+            "name":"Mango",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":1, 
+            "nutritionalValue":"Vitamin D"
+        },
+        {
+            "name":"Kiwi",
+            "color":"green",
+            "flavor":"swour",
+            "quantity":600, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"Banana",
+            "color":"yellow",
+            "flavor":"sweet",
+            "quantity":6000, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"apple",
+            "color":"red",
+            "flavor":"sweet",
+            "quantity":60, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"orange",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":30, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"grapes",
+            "color":"purple",
+            "flavor":"sweet",
+            "quantity":50, 
+            "nutritionalValue":"Vitamin A"
+        },
+        {
+            "name":"Mango",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":1, 
+            "nutritionalValue":"Vitamin D"
+        },
+        {
+            "name":"Kiwi",
+            "color":"green",
+            "flavor":"swour",
+            "quantity":600, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"Banana",
+            "color":"yellow",
+            "flavor":"sweet",
+            "quantity":6000, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"apple",
+            "color":"red",
+            "flavor":"sweet",
+            "quantity":60, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"orange",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":30, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"grapes",
+            "color":"purple",
+            "flavor":"sweet",
+            "quantity":50, 
+            "nutritionalValue":"Vitamin A"
+        },
+        {
+            "name":"Mango",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":1, 
+            "nutritionalValue":"Vitamin D"
+        },
+        {
+            "name":"Kiwi",
+            "color":"green",
+            "flavor":"swour",
+            "quantity":600, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"Banana",
+            "color":"yellow",
+            "flavor":"sweet",
+            "quantity":6000, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"apple",
+            "color":"red",
+            "flavor":"sweet",
+            "quantity":60, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"orange",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":30, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"grapes",
+            "color":"purple",
+            "flavor":"sweet",
+            "quantity":50, 
+            "nutritionalValue":"Vitamin A"
+        },
+        {
+            "name":"Mango",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":1, 
+            "nutritionalValue":"Vitamin D"
+        },
+        {
+            "name":"Kiwi",
+            "color":"green",
+            "flavor":"swour",
+            "quantity":600, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"Banana",
+            "color":"yellow",
+            "flavor":"sweet",
+            "quantity":6000, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"apple",
+            "color":"red",
+            "flavor":"sweet",
+            "quantity":60, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"orange",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":30, 
+            "nutritionalValue":"Vitamin C"
+        },
+        {
+            "name":"grapes",
+            "color":"purple",
+            "flavor":"sweet",
+            "quantity":50, 
+            "nutritionalValue":"Vitamin A"
+        },
+        {
+            "name":"Mango",
+            "color":"orange",
+            "flavor":"sweet",
+            "quantity":1, 
+            "nutritionalValue":"Vitamin D"
+        },
+        {
+            "name":"Kiwi",
+            "color":"green",
+            "flavor":"swour",
+            "quantity":600, 
+            "nutritionalValue":"Vitamin B"
+        },
+        {
+            "name":"Banana",
+            "color":"yellow",
+            "flavor":"sweet",
+            "quantity":6000, 
+            "nutritionalValue":"Vitamin B"
+        }
+    ]
+}
