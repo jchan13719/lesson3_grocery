@@ -1,17 +1,23 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/core/UIComponent"
+    "sap/ui/core/UIComponent",
+    'sap/ui/model/json/JSONModel'
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller,UIComponent) {
+    function (Controller,UIComponent,JSONModel) {
         "use strict";
 
         return Controller.extend("grocery.controller.List", {
             onInit: function () {
+                //Router
                 var oRouter = UIComponent.getRouterFor(this);
                 oRouter.getRoute("RouteList").attachPatternMatched(this.onRouteMatched, this)
+                //Set a new JSON model for grocery Items
+                var groceryModel = new JSONModel("/model/groceryItems.json");
+			    this.getView().setModel(groceryModel);
+
             },
             onRouteMatched:function(oEvent){
                 debugger
