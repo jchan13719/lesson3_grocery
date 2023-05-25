@@ -9,13 +9,24 @@ sap.ui.define([
         "use strict";
 
         return Controller.extend("grocery.controller.Dashboard", {
-            onInit: function () {
-
-            },
+            // onInit: function () {
+            //     alert("onInit")
+            // },
+            // onBeforeRendering: function () {
+            //     alert("onBeforeRendering")
+            // },
+            // onAfterRendering: function () {
+            //     alert("onAfterRendering")
+            // },
+            // onExit: function () {
+            //     alert("onExit")
+            // },
             setNewName:function(){
+                //************Input Property************
                 let currName=this.getView().byId("nameInput").getValue();
-                let buttonReference=this.getView().byId("nameSubmit");
                 let currNameLength=currName.length;
+
+                 let buttonReference=this.getView().byId("nameSubmit");
                 //Case 1: Accept if there are input characters
                 //Case 2: Reject if there are no input characters
                 if(currNameLength>0){

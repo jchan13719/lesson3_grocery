@@ -4,16 +4,17 @@
     <Page id="page" title="{i18n>list}">
         <content>
              <Label id="nameLabel" />
-             	<List
-                    headerText="Grocery Items"
-                    items="{
-                        path: '/items'
-                    }" 
-                    growing="true">
-                    <StandardListItem
-                        title="{name}"
-                        counter="{quantity}"/>
-                </List>
+            <List
+                headerText="Grocery Items"
+                items="{
+                    path: '/items'
+                }" 
+                growing="true"
+                footerText="#1 Supermarket">
+                <StandardListItem
+                    title="{name}"
+                    counter="{quantity}"/>
+            </List>
         </content>
     </Page>
 </mvc:View>
